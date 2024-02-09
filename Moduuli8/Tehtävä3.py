@@ -21,7 +21,7 @@ eka=kanta(eka)
 toka=input("Anna toka ICAO koodi :) ")
 toka=kanta(toka)
 if eka and toka:
-    print(geopy.distance.geodesic(eka, toka).km)
+    print(f"{geopy.distance.geodesic(eka, toka).km} kilometriä")
 
 else:
     print("Ei löytynyt lentokenttiä :(")
