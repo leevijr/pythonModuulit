@@ -7,4 +7,5 @@ class Auto:
 
 car = Auto("ABC-123", 142)
 
-print(car)
+#kiitos Noel
+print(vars(car))
